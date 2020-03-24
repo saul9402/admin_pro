@@ -9,6 +9,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 import { PAGES_ROUTES } from './pages.routes';
+import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 
 @NgModule({
     /**Aqui se ponen los componentes que se van a usar en este modulo */
@@ -16,7 +17,8 @@ import { PAGES_ROUTES } from './pages.routes';
         DashboardComponent,
         ProgressComponent,
         PagesComponent,
-        Graficas1Component
+        Graficas1Component,
+        IncrementadorComponent
     ],
     /**Aqui se ponen los componentes que van a ser usados por otros modulos externos a este. */
     exports: [
