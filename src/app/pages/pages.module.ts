@@ -10,6 +10,8 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 import { PAGES_ROUTES } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
     /**Aqui se ponen los componentes que se van a usar en este modulo */
@@ -18,7 +20,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
         ProgressComponent,
         PagesComponent,
         Graficas1Component,
-        IncrementadorComponent
+        IncrementadorComponent,
+        GraficoDonaComponent
     ],
     /**Aqui se ponen los componentes que van a ser usados por otros modulos externos a este. */
     exports: [
@@ -30,7 +33,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
     imports: [
         SharedModule,
         PAGES_ROUTES,
-        FormsModule
+        FormsModule,
+        ChartsModule
     ]
 
 })
