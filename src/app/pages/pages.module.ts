@@ -12,6 +12,7 @@ import { PAGES_ROUTES } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { ChartsModule } from 'ng2-charts';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     /**Aqui se ponen los componentes que se van a usar en este modulo */
@@ -21,7 +22,8 @@ import { ChartsModule } from 'ng2-charts';
         PagesComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     /**Aqui se ponen los componentes que van a ser usados por otros modulos externos a este. */
     exports: [
