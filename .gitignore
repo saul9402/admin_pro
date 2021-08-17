@@ -171,4 +171,5 @@ dist
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,angular,node
 
 *.code-workspace
+.code-workspace
 workspace_admin_pro.code-workspace
