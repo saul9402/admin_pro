@@ -9,8 +9,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 
-import { APP_ROUTES } from './app.routes';
-
 
 @NgModule({
   declarations: [
@@ -19,7 +17,6 @@ import { APP_ROUTES } from './app.routes';
   ],
   imports: [
     BrowserModule,
-    /* APP_ROUTES, */
     AppRoutingModule,
     AuthModule,
     PagesModule
