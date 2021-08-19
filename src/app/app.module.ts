@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
@@ -13,6 +15,7 @@ import { APP_ROUTES } from './app.routes';
 import { PagesComponent } from './pages/pages.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { NoPageFoundComponent } from './pages/no-page-found/no-page-found.component';
+import { Router } from '@angular/router';
 
 
 @NgModule({
@@ -32,10 +35,9 @@ import { NoPageFoundComponent } from './pages/no-page-found/no-page-found.compon
   ],
   imports: [
     BrowserModule,
-    APP_ROUTES
-
+    /* APP_ROUTES, */
+    AppRoutingModule,
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
