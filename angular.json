@@ -26,7 +26,18 @@
             "styles": [
               "src/styles.css",
               "src/assets/css/style.css",
+              "src/assets/css/colors/blue-dark.css",
+              "src/assets/css/colors/blue.css",
               "src/assets/css/colors/default-dark.css",
+              "src/assets/css/colors/default.css",
+              "src/assets/css/colors/green-dark.css",
+              "src/assets/css/colors/green.css",
+              "src/assets/css/colors/megna-dark.css",
+              "src/assets/css/colors/megna.css",
+              "src/assets/css/colors/purple-dark.css",
+              "src/assets/css/colors/purple.css",
+              "src/assets/css/colors/red-dark.css",
+              "src/assets/css/colors/red.css",
               "src/assets/plugins/bootstrap/css/bootstrap.min.css"
             ],
             "scripts": [
