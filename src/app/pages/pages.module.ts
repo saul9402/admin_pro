@@ -8,6 +8,8 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { ProgressComponent } from './progress/progress.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { PagesComponent } from './pages.component';
+import { PagesRoutingModule } from './pages-routing';
+import { ChildRoutesModule } from './child-routes.module';
 
 
 
@@ -27,7 +29,8 @@ import { PagesComponent } from './pages.component';
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    PagesRoutingModule
   ]
 })
 export class PagesModule { }
