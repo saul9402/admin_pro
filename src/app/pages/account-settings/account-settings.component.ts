@@ -17,8 +17,11 @@ export class AccountSettingsComponent implements OnInit {
 
 
     const linkTheme = document.querySelector("#theme");
+
     const url = `./assets/css/colors/${theme}.css`;
+
     linkTheme.setAttribute("href", url);
+
 
   }
 
