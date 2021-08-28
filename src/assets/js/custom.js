@@ -84,7 +84,12 @@ const customInitFunction = () => {
         // ============================================================== 
         // Auto select left navbar
         // ============================================================== 
-        $(function () {
+
+        /* 
+         * Se comenta codigo ya que se realizara otra implementacion.
+         * se hará usando el routerLinkActive en el sidebar-component
+         */
+        /* $(function () {
             var url = window.location;
             var element = $('ul#sidebarnav a').filter(function () {
                 return this.href == url;
@@ -97,7 +102,7 @@ const customInitFunction = () => {
                 }
             }
 
-        });
+        }); */
         // ============================================================== 
         //tooltip
         // ============================================================== 
